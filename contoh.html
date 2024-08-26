@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Penulisan css</title>
+    <!-- penulisan internal css dalam tag head -->
+    <style type="text/css">
+        h2 {
+            font-family: sans-serif;
+            color: red;
+            text-align: center;
+        }
+        p {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h2>INTERNAL CSS</h2>
+    <p>
+        Berikut adalah  paragraf penulisan dengan cara</p> <b>internal CSS</b>
+</body>
+</html>
+<hr>
+<html>
+    <head>
+        <title>CONTOH PENULISAN CSS</title>
+    </head>
+    <body>
+        <!-- penulisan internal css dalam tag body -->
+        <style type="text/css">
+            h1 {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: blue;
+            }
+            p1 {
+                text-align: left;
+            }
+        </style>
+        <h1>INTERNAL css</h1>
+        <p1>Berikut adalah paragraf penulisan dengan cara <i>internal css</i></p1>
+    </body>
+</html> 
+<hr>
+<html>
+    <!-- contoh Penulisan CSS menggunakan tag link -->
+    <head>
+        <title>Contoh eksternal CSS</title>
+        <link rel="stylesheet" type="text/css" href="contoh.css">
+    </head>
+    <body>
+        <h2>eksternal CSS</h2>
+        <p>Ini adalah contoh penulisan CSS secara eksternal menggunkan <b>tag link</b></p>
+    </body>
+</html>
+<hr>
+<html>
+    <!-- contoh penulisan CSS menggunakan tag @import -->
+    <head>
+        <title>Contoh eksternal CSS</title>
+        <style type="text/css">@import "contoh.css";</style>
+    </head>
+    <body>
+        <h1>Eksternal CSS</h1>
+        <p class="pol">Ini adalah contoh penulisan CSS secara Eksternal menggunakan <b>@import</b></p>
+    </body>
+</html>
+<hr>
+<html>
+    <head>
+        <title>Contoh Inline CSS</title>
+    </head>
+    <!-- contoh CSS menggunakan secara inline -->
+    <body>
+        <h3 style="color:green;font-family:Tahoma;">Contoh Inline CSS</h3>
+        <p style="color:blue">Kode CSS ditulis langsung pada atribut style di elemen HTML <b>(tanpa menggunakan kurung kurawa)</b></p>
+    </body>
+</html>

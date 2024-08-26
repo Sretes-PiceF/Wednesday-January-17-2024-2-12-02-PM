@@ -1,0 +1,11 @@
+/* ini menggunakan tag link */
+.p2{
+    color: azure;
+    background-color: red;
+}
+
+/* ini menggunakan tag @import */
+.pol{
+    color: chartreuse;
+    background-color: blueviolet;
+}
